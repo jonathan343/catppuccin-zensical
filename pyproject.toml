@@ -34,9 +34,19 @@ classifiers = [
     "Topic :: Documentation",
 ]
 
+[project.urls]
+"Changelog" = "https://github.com/jonathan343/catppuccin-zensical/blob/main/CHANGELOG.md"
+"Code" = "https://github.com/jonathan343/catppuccin-zensical"
+"Issue tracker" = "https://github.com/jonathan343/catppuccin-zensical/issues"
+
 [project.entry-points."mkdocs.themes"]
 catppuccin = "catppuccin_zensical"
 
 [build-system]
 requires = ["uv_build>=0.11.8,<0.12.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "jmeslog>=0.2.0",
+]
