@@ -11,3 +11,6 @@ wheels/
 
 # Playwright MCP artifacts
 .playwright-mcp/
+
+# Zensical
+site/
