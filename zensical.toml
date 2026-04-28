@@ -6,6 +6,10 @@ site_description = "Catppuccin theme extension for Zensical"
 site_author = "Jonathan Gaytan"
 site_url = "https://jonathan343.github.io/catppuccin-zensical/"
 
+# Repository
+repo_name = "jonathan343/catppuccin-zensical"
+repo_url = "https://github.com/jonathan343/catppuccin-zensical"
+
 # Copyright
 copyright = """
 Copyright &copy; 2026 <a href="https://jonathangaytan.com" target="_blank">Jonathan Gaytan</a>

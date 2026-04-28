@@ -1,5 +1,10 @@
 # Catppuccin Zensical
 
+[![Version](https://img.shields.io/pypi/v/catppuccin-zensical.svg)](https://pypi.org/project/catppuccin-zensical/)
+[![Supported Python Versions](https://img.shields.io/pypi/pyversions/catppuccin-zensical.svg)](https://pypi.org/project/catppuccin-zensical/)
+[![Documentation](https://img.shields.io/github/deployments/jonathan343/catppuccin-zensical/github-pages?label=docs)](https://jonathan343.github.io/catppuccin-zensical/)
+[![License](https://img.shields.io/github/license/jonathan343/catppuccin-zensical)](LICENSE)
+
 A [Zensical](https://zensical.org/) theme extension based on the
 [Catppuccin palette](https://catppuccin.com/palette/).
 
