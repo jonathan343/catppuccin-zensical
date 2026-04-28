@@ -1,0 +1,17 @@
+extends: material
+
+palette:
+  - media: "(prefers-color-scheme: light)"
+    scheme: catppuccin-latte
+    primary: custom
+    accent: custom
+    toggle:
+      icon: lucide/sun
+      name: Switch to dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: catppuccin-mocha
+    primary: custom
+    accent: custom
+    toggle:
+      icon: lucide/moon
+      name: Switch to light mode

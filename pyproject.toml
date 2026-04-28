@@ -8,7 +8,9 @@ authors = [
 ]
 license = "MIT"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "zensical>=0.0.37",
+]
 keywords = [
     "catppuccin",
     "documentation",
@@ -17,7 +19,7 @@ keywords = [
 ]
 
 classifiers = [
-    "Development Status :: 1 - Planning",
+    "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
     "Operating System :: OS Independent",
     "Programming Language :: Python",
@@ -30,9 +32,10 @@ classifiers = [
     "Programming Language :: Python :: 3.14",
     "Programming Language :: Python :: 3.15",
     "Topic :: Documentation",
-    "License :: OSI Approved :: MIT License",
-    
 ]
+
+[project.entry-points."mkdocs.themes"]
+catppuccin = "catppuccin_zensical"
 
 [build-system]
 requires = ["uv_build>=0.11.8,<0.12.0"]
