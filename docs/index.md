@@ -4,6 +4,11 @@ icon: lucide/palette
 
 # Catppuccin for Zensical
 
+[![Version](https://img.shields.io/pypi/v/catppuccin-zensical.svg)](https://pypi.org/project/catppuccin-zensical/)
+[![Supported Python Versions](https://img.shields.io/pypi/pyversions/catppuccin-zensical.svg)](https://pypi.org/project/catppuccin-zensical/)
+[![Documentation](https://img.shields.io/github/deployments/jonathan343/catppuccin-zensical/github-pages?label=docs)](https://jonathan343.github.io/catppuccin-zensical/)
+[![License](https://img.shields.io/github/license/jonathan343/catppuccin-zensical)](LICENSE)
+
 A soothing pastel theme for [Zensical] documentation sites, built on the
 [Catppuccin] palette. It registers an installable `catppuccin` theme that
 extends Zensical's Material-compatible default, adding all four official
