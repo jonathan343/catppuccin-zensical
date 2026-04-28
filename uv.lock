@@ -13,13 +13,17 @@ dependencies = [
 [package.dev-dependencies]
 dev = [
     { name = "jmeslog" },
+    { name = "zensical" },
 ]
 
 [package.metadata]
 requires-dist = [{ name = "zensical", specifier = ">=0.0.37" }]
 
 [package.metadata.requires-dev]
-dev = [{ name = "jmeslog", specifier = ">=0.2.0" }]
+dev = [
+    { name = "jmeslog", specifier = ">=0.2.0" },
+    { name = "zensical", specifier = ">=0.0.37" },
+]
 
 [[package]]
 name = "click"
