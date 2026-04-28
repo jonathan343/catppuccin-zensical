@@ -110,9 +110,9 @@ Mermaid diagrams adopt the flavor's surface and accent colors:
 
 ``` mermaid
 graph LR
-  A[Latte] --> B[Frappé]
-  B --> C[Macchiato]
-  C --> D[Mocha]
+  A[Mocha] --> B[Macchiato]
+  B --> C[Frappé]
+  C --> D[Latte]
   D --> A
 ```
 

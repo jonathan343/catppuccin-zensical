@@ -37,6 +37,7 @@ classifiers = [
 [project.urls]
 "Changelog" = "https://github.com/jonathan343/catppuccin-zensical/blob/main/CHANGELOG.md"
 "Code" = "https://github.com/jonathan343/catppuccin-zensical"
+"Documentation" = "https://jonathan343.github.io/catppuccin-zensical/"
 "Issue tracker" = "https://github.com/jonathan343/catppuccin-zensical/issues"
 
 [project.entry-points."mkdocs.themes"]

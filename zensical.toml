@@ -4,7 +4,7 @@
 site_name = "Catppuccin for Zensical"
 site_description = "Catppuccin theme extension for Zensical"
 site_author = "Jonathan Gaytan"
-#site_url = "https://www.example.com/"
+site_url = "https://jonathan343.github.io/catppuccin-zensical/"
 
 # Copyright
 copyright = """
@@ -201,23 +201,16 @@ logo = "lucide/palette"
 # ----------------------------------------------------------------------------
 # This site cycles through all four Catppuccin flavors so visitors can see
 # every palette in action. The toggle in the header advances:
-# Latte → Frappé → Macchiato → Mocha → Latte.
+# Mocha -> Macchiato -> Frappé -> Latte -> Mocha.
 #
 # Read more:
 # - https://zensical.org/docs/setup/colors/
 # ----------------------------------------------------------------------------
 [[project.theme.palette]]
-scheme = "catppuccin-latte"
+scheme = "catppuccin-mocha"
 primary = "custom"
 accent = "custom"
-toggle.icon = "lucide/sun"
-toggle.name = "Switch to Frappé"
-
-[[project.theme.palette]]
-scheme = "catppuccin-frappe"
-primary = "custom"
-accent = "custom"
-toggle.icon = "lucide/cloud-sun"
+toggle.icon = "lucide/moon"
 toggle.name = "Switch to Macchiato"
 
 [[project.theme.palette]]
@@ -225,14 +218,21 @@ scheme = "catppuccin-macchiato"
 primary = "custom"
 accent = "custom"
 toggle.icon = "lucide/cloud-moon"
-toggle.name = "Switch to Mocha"
+toggle.name = "Switch to Frappé"
 
 [[project.theme.palette]]
-scheme = "catppuccin-mocha"
+scheme = "catppuccin-frappe"
 primary = "custom"
 accent = "custom"
-toggle.icon = "lucide/moon"
+toggle.icon = "lucide/cloud-sun"
 toggle.name = "Switch to Latte"
+
+[[project.theme.palette]]
+scheme = "catppuccin-latte"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to Mocha"
 
 # ----------------------------------------------------------------------------
 # The "extra" section contains miscellaneous settings.

@@ -77,17 +77,10 @@ toggle's `name` should describe what clicking it does next:
 
 ```toml title="zensical.toml"
 [[project.theme.palette]]
-scheme = "catppuccin-latte"
+scheme = "catppuccin-mocha"
 primary = "custom"
 accent = "custom"
-toggle.icon = "lucide/sun"
-toggle.name = "Switch to Frappé"
-
-[[project.theme.palette]]
-scheme = "catppuccin-frappe"
-primary = "custom"
-accent = "custom"
-toggle.icon = "lucide/cloud-sun"
+toggle.icon = "lucide/moon"
 toggle.name = "Switch to Macchiato"
 
 [[project.theme.palette]]
@@ -95,14 +88,21 @@ scheme = "catppuccin-macchiato"
 primary = "custom"
 accent = "custom"
 toggle.icon = "lucide/cloud-moon"
-toggle.name = "Switch to Mocha"
+toggle.name = "Switch to Frappé"
 
 [[project.theme.palette]]
-scheme = "catppuccin-mocha"
+scheme = "catppuccin-frappe"
 primary = "custom"
 accent = "custom"
-toggle.icon = "lucide/moon"
+toggle.icon = "lucide/cloud-sun"
 toggle.name = "Switch to Latte"
+
+[[project.theme.palette]]
+scheme = "catppuccin-latte"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to Mocha"
 ```
 
 ## MkDocs equivalent
