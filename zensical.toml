@@ -4,7 +4,7 @@
 site_name = "Catppuccin for Zensical"
 site_description = "Catppuccin theme extension for Zensical"
 site_author = "Jonathan Gaytan"
-#site_url = "https://www.example.com/"
+site_url = "https://jonathan343.github.io/catppuccin-zensical/"
 
 # Copyright
 copyright = """

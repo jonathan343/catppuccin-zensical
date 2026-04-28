@@ -48,7 +48,7 @@ official palette guide uses.
 ## Footer signature
 
 The theme adds a small "Styled with catppuccin-zensical" line to the footer
-that links back to the project repository. To opt out:
+that links to the live documentation. To opt out:
 
 ```toml title="zensical.toml"
 [project.extra.catppuccin]

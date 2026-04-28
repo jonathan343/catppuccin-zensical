@@ -10,6 +10,9 @@ for Latte, Frappe, Macchiato, and Mocha.
 The default configuration follows the user's system preference with Latte for
 light mode and Mocha for dark mode.
 
+[Live documentation](https://jonathan343.github.io/catppuccin-zensical/)
+includes installation, configuration, customization, and showcase examples.
+
 ## Usage
 
 Install the package in the same environment as Zensical:
@@ -59,7 +62,7 @@ Available schemes:
 ## Footer signature
 
 The theme adds a small "Styled with catppuccin-zensical" line to the footer
-that links back to this repository. To opt out, set:
+that links to the live documentation. To opt out, set:
 
 ```toml
 [project.extra.catppuccin]
