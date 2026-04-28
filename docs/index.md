@@ -14,25 +14,20 @@ flavors.
 
 !!! tip "Try the toggle"
 
-    Use the palette toggle in the header to cycle through **Latte**,
-    **Frappé**, **Macchiato**, and **Mocha**. The whole site re-themes
+    Use the palette toggle in the header to cycle through **Mocha**,
+    **Macchiato**, **Frappé**, and **Latte**. The whole site re-themes
     instantly — including code blocks, admonitions, and diagrams.
 
 ## The four flavors
 
 <div class="grid cards" markdown>
 
--   :material-coffee-outline: __Latte__
+-   :material-coffee-to-go: __Mocha__
 
     ---
 
-    Warm, light, easy on the eyes during the day. The default light scheme.
-
--   :material-coffee: __Frappé__
-
-    ---
-
-    A muted, cool-toned dark variant. Comfortable for low-light reading.
+    The deepest, most saturated dark scheme. The default first impression
+    for this site.
 
 -   :material-coffee-to-go-outline: __Macchiato__
 
@@ -40,11 +35,17 @@ flavors.
 
     Slightly more vibrant than Frappé, with a touch more contrast.
 
--   :material-coffee-to-go: __Mocha__
+-   :material-coffee: __Frappé__
 
     ---
 
-    The deepest, most saturated dark scheme. The default for dark mode.
+    A muted, cool-toned dark variant. Comfortable for low-light reading.
+
+-   :material-coffee-outline: __Latte__
+
+    ---
+
+    Warm, light, easy on the eyes during the day. The light scheme.
 
 </div>
 
