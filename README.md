@@ -55,3 +55,21 @@ Available schemes:
 - `catppuccin-frappe`
 - `catppuccin-macchiato`
 - `catppuccin-mocha`
+
+## Footer signature
+
+The theme adds a small "Styled with catppuccin-zensical" line to the footer
+that links back to this repository. To opt out, set:
+
+```toml
+[project.extra.catppuccin]
+signature = false
+```
+
+Or in `mkdocs.yml`:
+
+```yaml
+extra:
+  catppuccin:
+    signature: false
+```

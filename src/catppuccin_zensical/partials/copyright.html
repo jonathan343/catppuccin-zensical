@@ -1,0 +1,21 @@
+<div class="md-copyright">
+  {% if config.copyright %}
+    <div class="md-copyright__highlight">
+      {{ config.copyright }}
+    </div>
+  {% endif %}
+  {% if not config.extra.generator == false %}
+    Made with
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
+    </a>
+  {% endif %}
+  {% if not (config.extra.catppuccin and config.extra.catppuccin.signature == false) %}
+    <div class="md-copyright__catppuccin">
+      Styled with
+      <a href="https://github.com/jonathan343/catppuccin-zensical" target="_blank" rel="noopener">
+        catppuccin-zensical
+      </a>
+    </div>
+  {% endif %}
+</div>
