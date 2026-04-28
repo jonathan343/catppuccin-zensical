@@ -131,8 +131,8 @@
 
   --md-accent-fg-color: var(--ctp-sky);
   --md-accent-fg-color--transparent: color-mix(in srgb, var(--ctp-sky) 14%, transparent);
-  --md-accent-bg-color: var(--ctp-base);
-  --md-accent-bg-color--light: var(--ctp-mantle);
+  --md-accent-bg-color: var(--ctp-mantle);
+  --md-accent-bg-color--light: var(--ctp-surface0);
 
   --md-default-fg-color: var(--ctp-text);
   --md-default-fg-color--light: var(--ctp-subtext1);
@@ -160,7 +160,7 @@
   --md-code-hl-punctuation-color: var(--ctp-overlay2);
   --md-code-hl-comment-color: var(--ctp-overlay2);
   --md-code-hl-generic-color: var(--ctp-text);
-  --md-code-hl-variable-color: var(--ctp-red);
+  --md-code-hl-variable-color: var(--ctp-maroon);
 
   --md-typeset-a-color: var(--ctp-blue);
   --md-typeset-color: var(--ctp-text);
@@ -371,6 +371,83 @@
 [data-md-color-scheme^="catppuccin-"] .md-typeset mark {
   background-color: color-mix(in srgb, var(--ctp-overlay2) 25%, transparent);
   color: var(--ctp-text);
+}
+
+[data-md-color-scheme^="catppuccin-"] ::selection {
+  background-color: color-mix(in srgb, var(--ctp-overlay2) 30%, transparent);
+}
+
+/* Admonition variants
+ * Catppuccin colors per the style guide; each variant gets a distinct accent
+ * so collapsible details and admonitions stay readable across all flavors. */
+[data-md-color-scheme^="catppuccin-"] .md-typeset .admonition,
+[data-md-color-scheme^="catppuccin-"] .md-typeset details {
+  --ctp-admonition: var(--ctp-overlay1);
+  background-color: color-mix(in srgb, var(--ctp-admonition) 10%, transparent);
+  border-color: var(--ctp-admonition);
+}
+
+[data-md-color-scheme^="catppuccin-"] .md-typeset .admonition > .admonition-title,
+[data-md-color-scheme^="catppuccin-"] .md-typeset details > summary {
+  background-color: transparent;
+}
+
+[data-md-color-scheme^="catppuccin-"] .md-typeset .admonition-title::before,
+[data-md-color-scheme^="catppuccin-"] .md-typeset summary::before {
+  background-color: var(--ctp-admonition);
+}
+
+[data-md-color-scheme^="catppuccin-"] .md-typeset .note,
+[data-md-color-scheme^="catppuccin-"] .md-typeset .seealso {
+  --ctp-admonition: var(--ctp-blue);
+}
+[data-md-color-scheme^="catppuccin-"] .md-typeset .abstract,
+[data-md-color-scheme^="catppuccin-"] .md-typeset .summary,
+[data-md-color-scheme^="catppuccin-"] .md-typeset .tldr {
+  --ctp-admonition: var(--ctp-lavender);
+}
+[data-md-color-scheme^="catppuccin-"] .md-typeset .info,
+[data-md-color-scheme^="catppuccin-"] .md-typeset .todo {
+  --ctp-admonition: var(--ctp-sky);
+}
+[data-md-color-scheme^="catppuccin-"] .md-typeset .tip,
+[data-md-color-scheme^="catppuccin-"] .md-typeset .hint,
+[data-md-color-scheme^="catppuccin-"] .md-typeset .important {
+  --ctp-admonition: var(--ctp-teal);
+}
+[data-md-color-scheme^="catppuccin-"] .md-typeset .success,
+[data-md-color-scheme^="catppuccin-"] .md-typeset .check,
+[data-md-color-scheme^="catppuccin-"] .md-typeset .done {
+  --ctp-admonition: var(--ctp-green);
+}
+[data-md-color-scheme^="catppuccin-"] .md-typeset .question,
+[data-md-color-scheme^="catppuccin-"] .md-typeset .help,
+[data-md-color-scheme^="catppuccin-"] .md-typeset .faq {
+  --ctp-admonition: var(--ctp-yellow);
+}
+[data-md-color-scheme^="catppuccin-"] .md-typeset .warning,
+[data-md-color-scheme^="catppuccin-"] .md-typeset .caution,
+[data-md-color-scheme^="catppuccin-"] .md-typeset .attention {
+  --ctp-admonition: var(--ctp-peach);
+}
+[data-md-color-scheme^="catppuccin-"] .md-typeset .failure,
+[data-md-color-scheme^="catppuccin-"] .md-typeset .fail,
+[data-md-color-scheme^="catppuccin-"] .md-typeset .missing {
+  --ctp-admonition: var(--ctp-maroon);
+}
+[data-md-color-scheme^="catppuccin-"] .md-typeset .danger,
+[data-md-color-scheme^="catppuccin-"] .md-typeset .error {
+  --ctp-admonition: var(--ctp-red);
+}
+[data-md-color-scheme^="catppuccin-"] .md-typeset .bug {
+  --ctp-admonition: var(--ctp-flamingo);
+}
+[data-md-color-scheme^="catppuccin-"] .md-typeset .example {
+  --ctp-admonition: var(--ctp-mauve);
+}
+[data-md-color-scheme^="catppuccin-"] .md-typeset .quote,
+[data-md-color-scheme^="catppuccin-"] .md-typeset .cite {
+  --ctp-admonition: var(--ctp-overlay1);
 }
 
 [data-md-color-scheme^="catppuccin-"] .md-typeset table:not([class]) {

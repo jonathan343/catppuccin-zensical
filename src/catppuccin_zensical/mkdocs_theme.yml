@@ -1,6 +1,10 @@
 extends: material
 
 palette:
+  - media: "(prefers-color-scheme)"
+    toggle:
+      icon: lucide/sun-moon
+      name: Switch to light mode
   - media: "(prefers-color-scheme: light)"
     scheme: catppuccin-latte
     primary: custom
@@ -14,4 +18,4 @@ palette:
     accent: custom
     toggle:
       icon: lucide/moon
-      name: Switch to light mode
+      name: Switch to system preference
