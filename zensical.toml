@@ -10,6 +10,16 @@ site_url = "https://jonathan343.github.io/catppuccin-zensical/"
 repo_name = "jonathan343/catppuccin-zensical"
 repo_url = "https://github.com/jonathan343/catppuccin-zensical"
 
+# Navigation
+nav = [
+    "index.md",
+    "configuration.md",
+    "customization.md",
+    "installation.md",
+    "showcase.md",
+    "changelog.md",
+]
+
 # Copyright
 copyright = """
 Copyright &copy; 2026 <a href="https://jonathangaytan.com" target="_blank">Jonathan Gaytan</a>
@@ -283,6 +293,8 @@ pygments_lang_class = true
 [project.markdown_extensions.pymdownx.magiclink]
 [project.markdown_extensions.pymdownx.mark]
 [project.markdown_extensions.pymdownx.smartsymbols]
+[project.markdown_extensions.pymdownx.snippets]
+check_paths = true
 [project.markdown_extensions.pymdownx.superfences]
 custom_fences = [
   { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
