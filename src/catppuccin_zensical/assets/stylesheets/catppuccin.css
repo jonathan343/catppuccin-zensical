@@ -27,6 +27,11 @@
   --ctp-base: #eff1f5;
   --ctp-mantle: #e6e9ef;
   --ctp-crust: #dce0e8;
+
+  --color-backdrop: 220 224 232;
+  --color-background: 239 241 245;
+  --color-background-subtle: 230 233 239;
+  --color-foreground: 76 79 105;
 }
 
 [data-md-color-scheme="catppuccin-frappe"] {
@@ -58,6 +63,11 @@
   --ctp-base: #303446;
   --ctp-mantle: #292c3c;
   --ctp-crust: #232634;
+
+  --color-backdrop: 35 38 52;
+  --color-background: 48 52 70;
+  --color-background-subtle: 65 69 89;
+  --color-foreground: 198 208 245;
 }
 
 [data-md-color-scheme="catppuccin-macchiato"] {
@@ -89,6 +99,11 @@
   --ctp-base: #24273a;
   --ctp-mantle: #1e2030;
   --ctp-crust: #181926;
+
+  --color-backdrop: 24 25 38;
+  --color-background: 36 39 58;
+  --color-background-subtle: 54 58 79;
+  --color-foreground: 202 211 245;
 }
 
 [data-md-color-scheme="catppuccin-mocha"] {
@@ -120,6 +135,11 @@
   --ctp-base: #1e1e2e;
   --ctp-mantle: #181825;
   --ctp-crust: #11111b;
+
+  --color-backdrop: 17 17 27;
+  --color-background: 30 30 46;
+  --color-background-subtle: 49 50 68;
+  --color-foreground: 205 214 244;
 }
 
 [data-md-color-scheme^="catppuccin-"] {
