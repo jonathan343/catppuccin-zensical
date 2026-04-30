@@ -1,0 +1,5 @@
+{
+  "type": "enhancement",
+  "category": "theme",
+  "description": "Soften the header and footer dividers across Catppuccin palettes ([#13](https://github.com/jonathan343/catppuccin-zensical/pull/13))."
+}

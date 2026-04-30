@@ -204,6 +204,10 @@
   color: var(--ctp-text);
 }
 
+[data-md-color-scheme^="catppuccin-"] .md-header--shadow {
+  box-shadow: 0 0.05rem 0 color-mix(in srgb, var(--ctp-surface0) 45%, transparent);
+}
+
 [data-md-color-scheme^="catppuccin-"] .md-header__button,
 [data-md-color-scheme^="catppuccin-"] .md-tabs__link {
   color: var(--ctp-subtext1);
@@ -366,6 +370,10 @@
 [data-md-color-scheme^="catppuccin-"] .md-footer-meta {
   background-color: var(--ctp-crust);
   color: var(--ctp-text);
+}
+
+[data-md-color-scheme^="catppuccin-"] .md-footer {
+  border-top-color: color-mix(in srgb, var(--ctp-surface0) 45%, transparent);
 }
 
 [data-md-color-scheme^="catppuccin-"] .md-footer__direction {
