@@ -1,0 +1,5 @@
+{
+  "type": "bugfix",
+  "category": "theme",
+  "description": "Theme Zensical's search modal with Catppuccin colors ([#10](https://github.com/jonathan343/catppuccin-zensical/pull/10))."
+}
