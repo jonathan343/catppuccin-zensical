@@ -1,0 +1,35 @@
+{
+  "schema-version": "0.2",
+  "changes": [
+    {
+      "type": "feature",
+      "category": "theme",
+      "description": "Add a 'Styled with catppuccin-zensical' signature to the site footer that links back to the catppuccin-zensical repo. Opt out by setting `extra.catppuccin.signature = false` ([#3](https://github.com/jonathan343/catppuccin-zensical/pull/3))."
+    },
+    {
+      "type": "bugfix",
+      "category": "theme",
+      "description": "Theme Zensical's search modal with Catppuccin colors ([#10](https://github.com/jonathan343/catppuccin-zensical/pull/10))."
+    },
+    {
+      "type": "enhancement",
+      "category": "docs",
+      "description": "Add a docs page that renders the repository changelog ([#12](https://github.com/jonathan343/catppuccin-zensical/pull/12))."
+    },
+    {
+      "type": "enhancement",
+      "category": "theme",
+      "description": "Soften the header and footer dividers across Catppuccin palettes ([#13](https://github.com/jonathan343/catppuccin-zensical/pull/13))."
+    },
+    {
+      "type": "enhancement",
+      "category": "theme",
+      "description": "Polish highlighted text and table borders with Catppuccin palette colors ([#14](https://github.com/jonathan343/catppuccin-zensical/pull/14))."
+    },
+    {
+      "type": "enhancement",
+      "category": "theme",
+      "description": "Align footer page navigation with the Catppuccin body layer while keeping the footer meta section distinct ([#15](https://github.com/jonathan343/catppuccin-zensical/pull/15))."
+    }
+  ]
+}

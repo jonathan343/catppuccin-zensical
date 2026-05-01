@@ -1,5 +1,19 @@
 # Changelog
 
+## v0.2.0
+
+### Features
+* Add a 'Styled with catppuccin-zensical' signature to the site footer that links back to the catppuccin-zensical repo. Opt out by setting `extra.catppuccin.signature = false` ([#3](https://github.com/jonathan343/catppuccin-zensical/pull/3)).
+
+### Enhancements
+* Add a docs page that renders the repository changelog ([#12](https://github.com/jonathan343/catppuccin-zensical/pull/12)).
+* Soften the header and footer dividers across Catppuccin palettes ([#13](https://github.com/jonathan343/catppuccin-zensical/pull/13)).
+* Polish highlighted text and table borders with Catppuccin palette colors ([#14](https://github.com/jonathan343/catppuccin-zensical/pull/14)).
+* Align footer page navigation with the Catppuccin body layer while keeping the footer meta section distinct ([#15](https://github.com/jonathan343/catppuccin-zensical/pull/15)).
+
+### Bug fixes
+* Theme Zensical's search modal with Catppuccin colors ([#10](https://github.com/jonathan343/catppuccin-zensical/pull/10)).
+
 ## v0.1.0
 
 ### Features

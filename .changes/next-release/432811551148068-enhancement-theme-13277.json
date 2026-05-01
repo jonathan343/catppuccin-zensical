@@ -1,5 +1,0 @@
-{
-  "type": "enhancement",
-  "category": "theme",
-  "description": "Align footer page navigation with the Catppuccin body layer while keeping the footer meta section distinct ([#15](https://github.com/jonathan343/catppuccin-zensical/pull/15))."
-}
