@@ -5,31 +5,36 @@
 [![Documentation](https://img.shields.io/github/deployments/jonathan343/catppuccin-zensical/github-pages?label=docs)](https://jonathan343.github.io/catppuccin-zensical/)
 [![License](https://img.shields.io/github/license/jonathan343/catppuccin-zensical)](LICENSE)
 
-A [Zensical](https://zensical.org/) theme extension based on the
-[Catppuccin palette](https://catppuccin.com/palette/).
+A [Catppuccin](https://catppuccin.com/) theme extension for
+[Zensical](https://zensical.org/) and MkDocs sites.
 
-This package registers an installable theme named `catppuccin`. It extends
-Zensical's default Material-compatible theme and adds Catppuccin color schemes
-for Latte, Frappe, Macchiato, and Mocha.
+It registers an installable theme named `catppuccin` that extends Zensical's
+Material-compatible theme with Catppuccin's Latte, Frappé, Macchiato, and Mocha
+palettes.
 
-The default configuration follows the user's system preference with Latte for
-light mode and Mocha for dark mode.
+[Live demo](https://jonathan343.github.io/catppuccin-zensical/) ·
+[Showcase](https://jonathan343.github.io/catppuccin-zensical/showcase/) ·
+[Configuration](https://jonathan343.github.io/catppuccin-zensical/configuration/) ·
+[Changelog](https://jonathan343.github.io/catppuccin-zensical/changelog/)
 
-[Live documentation](https://jonathan343.github.io/catppuccin-zensical/)
-includes installation, configuration, customization, and showcase examples.
+![Catppuccin Zensical preview showing Mocha, Macchiato, Frappé, and Latte](docs/assets/readme-preview.png)
 
-## Usage
+## What you get
+
+- Four Catppuccin flavors: Latte, Frappé, Macchiato, and Mocha.
+- Automatic light/dark mode defaults: Latte for light mode and Mocha for dark
+  mode.
+- Catppuccin colors across Zensical components, including navigation, search,
+  code blocks, admonitions, tables, highlights, diagrams, and footer elements.
+- A small optional "Styled with catppuccin-zensical" footer signature that links
+  back to the live documentation.
+
+## Quick start
 
 Install the package in the same environment as Zensical:
 
 ```sh
-pip install catppuccin-zensical
-```
-
-For local development from this checkout:
-
-```sh
-uv pip install -e .
+uv pip install catppuccin-zensical
 ```
 
 Then set the theme name in `zensical.toml`:
@@ -46,7 +51,11 @@ theme:
   name: catppuccin
 ```
 
-To choose a specific flavor, override the palette:
+## Choose a flavor
+
+The default configuration follows the user's system preference with Latte for
+light mode and Mocha for dark mode. To force a specific flavor, set the palette
+scheme:
 
 ```yaml
 theme:
@@ -59,15 +68,17 @@ theme:
 
 Available schemes:
 
-- `catppuccin-latte`
-- `catppuccin-frappe`
-- `catppuccin-macchiato`
-- `catppuccin-mocha`
+| Flavor | Scheme |
+| --- | --- |
+| Latte | `catppuccin-latte` |
+| Frappé | `catppuccin-frappe` |
+| Macchiato | `catppuccin-macchiato` |
+| Mocha | `catppuccin-mocha` |
 
 ## Footer signature
 
-The theme adds a small "Styled with catppuccin-zensical" line to the footer
-that links to the live documentation. To opt out, set:
+The theme adds a small "Styled with catppuccin-zensical" line to the footer that
+links to the live documentation. To opt out, set:
 
 ```toml
 [project.extra.catppuccin]
@@ -80,4 +91,13 @@ Or in `mkdocs.yml`:
 extra:
   catppuccin:
     signature: false
+```
+
+## Local development
+
+From this checkout:
+
+```sh
+uv sync --all-groups
+uv run zensical serve
 ```
