@@ -1,5 +1,0 @@
-{
-  "type": "feature",
-  "category": "theme",
-  "description": "Add a 'Styled with catppuccin-zensical' signature to the site footer that links back to the catppuccin-zensical repo. Opt out by setting `extra.catppuccin.signature = false`."
-}
