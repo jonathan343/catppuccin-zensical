@@ -10,7 +10,7 @@ reach for first.
 
 ## Logo and icon
 
-Replace the default palette icon with your own logo:
+Replace the default rainbow cat logo with your own logo:
 
 ```toml title="zensical.toml"
 [project.theme]
