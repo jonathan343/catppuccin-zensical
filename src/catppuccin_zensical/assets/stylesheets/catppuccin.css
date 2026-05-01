@@ -397,7 +397,7 @@
 }
 
 [data-md-color-scheme^="catppuccin-"] .md-typeset mark {
-  background-color: color-mix(in srgb, var(--ctp-overlay2) 25%, transparent);
+  background-color: color-mix(in srgb, var(--ctp-yellow) 25%, transparent);
   color: var(--ctp-text);
 }
 
@@ -480,6 +480,7 @@
 
 [data-md-color-scheme^="catppuccin-"] .md-typeset table:not([class]) {
   background-color: var(--ctp-base);
+  border-color: var(--ctp-surface0);
 }
 
 [data-md-color-scheme^="catppuccin-"] .md-typeset table:not([class]) th {
@@ -489,6 +490,10 @@
 
 [data-md-color-scheme^="catppuccin-"] .md-typeset table:not([class]) tr {
   border-color: var(--ctp-surface0);
+}
+
+[data-md-color-scheme^="catppuccin-"] .md-typeset table:not([class]) td {
+  border-top-color: var(--ctp-surface0);
 }
 
 [data-md-color-scheme^="catppuccin-"] .md-typeset hr {
