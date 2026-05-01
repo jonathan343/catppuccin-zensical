@@ -366,14 +366,15 @@
   color: var(--ctp-mauve) !important;
 }
 
-[data-md-color-scheme^="catppuccin-"] .md-footer,
-[data-md-color-scheme^="catppuccin-"] .md-footer-meta {
-  background-color: var(--ctp-crust);
+[data-md-color-scheme^="catppuccin-"] .md-footer {
+  background-color: var(--ctp-base);
+  border-top-color: color-mix(in srgb, var(--ctp-surface0) 45%, transparent);
   color: var(--ctp-text);
 }
 
-[data-md-color-scheme^="catppuccin-"] .md-footer {
-  border-top-color: color-mix(in srgb, var(--ctp-surface0) 45%, transparent);
+[data-md-color-scheme^="catppuccin-"] .md-footer-meta {
+  background-color: var(--ctp-crust);
+  color: var(--ctp-text);
 }
 
 [data-md-color-scheme^="catppuccin-"] .md-footer__direction {
