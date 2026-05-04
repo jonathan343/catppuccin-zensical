@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.2.1
+
+### Enhancements
+* Polish the header search button with Catppuccin palette colors.
+
 ## v0.2.0
 
 ### Features

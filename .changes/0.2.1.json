@@ -1,0 +1,10 @@
+{
+  "schema-version": "0.2",
+  "changes": [
+    {
+      "type": "enhancement",
+      "category": "theme",
+      "description": "Polish the header search button with Catppuccin palette colors."
+    }
+  ]
+}
