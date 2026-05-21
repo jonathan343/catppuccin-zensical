@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.2.2
+
+### Bug fixes
+* Show the Material for MkDocs generator link when catppuccin is used from MkDocs while preserving Zensical output for Zensical builds. ([#22](https://github.com/jonathan343/catppuccin-zensical/pull/22))
+
 ## v0.2.1
 
 ### Enhancements
