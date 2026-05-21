@@ -5,9 +5,21 @@
     </div>
   {% endif %}
   {% if not config.extra.generator == false %}
+    {% if config.extra.catppuccin and config.extra.catppuccin.generator %}
+      {% set generator = config.extra.catppuccin.generator %}
+      {% set generator_name = generator.name or "Material for MkDocs" %}
+      {% set generator_url = generator.url or "https://squidfunk.github.io/mkdocs-material/" %}
+    {# Zensical injects theme_dirs into the template context; MkDocs Material does not. #}
+    {% elif config.theme_dirs is defined %}
+      {% set generator_name = "Zensical" %}
+      {% set generator_url = "https://zensical.org/" %}
+    {% else %}
+      {% set generator_name = "Material for MkDocs" %}
+      {% set generator_url = "https://squidfunk.github.io/mkdocs-material/" %}
+    {% endif %}
     Made with
-    <a href="https://zensical.org/" target="_blank" rel="noopener">
-      Zensical
+    <a href="{{ generator_url }}" target="_blank" rel="noopener">
+      {{ generator_name }}
     </a>
   {% endif %}
   {% if not (config.extra.catppuccin and config.extra.catppuccin.signature == false) %}
