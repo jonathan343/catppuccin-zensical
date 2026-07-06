@@ -198,6 +198,19 @@
   --md-footer-bg-color--dark: var(--ctp-crust);
 }
 
+[data-md-color-scheme=catppuccin-latte] img[src$="#only-dark"] {
+    display: none
+}
+[data-md-color-scheme=catppuccin-frappe] img[src$="#only-light"] {
+    display: none
+}
+[data-md-color-scheme=catppuccin-macchiato] img[src$="#only-light"] {
+    display: none
+}
+[data-md-color-scheme=catppuccin-mocha] img[src$="#only-light"] {
+    display: none
+}
+
 [data-md-color-scheme^="catppuccin-"] .md-header,
 [data-md-color-scheme^="catppuccin-"] .md-tabs {
   background-color: var(--ctp-mantle);
