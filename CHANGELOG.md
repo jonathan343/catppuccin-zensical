@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.2.3
+
+### Bug fixes
+* Fix Catppuccin theme handling for light/dark image fragments, preventing duplicate themed images from rendering. ([#25](https://github.com/jonathan343/catppuccin-zensical/pull/25))
+
 ## v0.2.2
 
 ### Bug fixes
