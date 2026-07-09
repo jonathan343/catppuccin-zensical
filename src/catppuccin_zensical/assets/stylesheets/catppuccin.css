@@ -198,6 +198,23 @@
   --md-footer-bg-color--dark: var(--ctp-crust);
 }
 
+[data-md-color-scheme=catppuccin-latte] img[src$="#only-dark"],
+[data-md-color-scheme=catppuccin-latte] img[src$="#gh-dark-mode-only"] {
+    display: none
+}
+[data-md-color-scheme=catppuccin-frappe] img[src$="#only-light"],
+[data-md-color-scheme=catppuccin-frappe] img[src$="#gh-light-mode-only"] {
+    display: none
+}
+[data-md-color-scheme=catppuccin-macchiato] img[src$="#only-light"],
+[data-md-color-scheme=catppuccin-macchiato] img[src$="#gh-light-mode-only"] {
+    display: none
+}
+[data-md-color-scheme=catppuccin-mocha] img[src$="#only-light"],
+[data-md-color-scheme=catppuccin-mocha] img[src$="#gh-light-mode-only"] {
+    display: none
+}
+
 [data-md-color-scheme^="catppuccin-"] .md-header,
 [data-md-color-scheme^="catppuccin-"] .md-tabs {
   background-color: var(--ctp-mantle);
