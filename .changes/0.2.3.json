@@ -1,0 +1,10 @@
+{
+  "schema-version": "0.2",
+  "changes": [
+    {
+      "type": "bugfix",
+      "category": "theme",
+      "description": "Fix Catppuccin theme handling for light/dark image fragments, preventing duplicate themed images from rendering. ([#25](https://github.com/jonathan343/catppuccin-zensical/pull/25))"
+    }
+  ]
+}
