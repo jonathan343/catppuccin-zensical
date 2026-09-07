@@ -17,13 +17,21 @@ palettes.
 [Configuration](https://jonathan343.github.io/catppuccin-zensical/configuration/) ·
 [Changelog](https://jonathan343.github.io/catppuccin-zensical/changelog/)
 
-| Mocha | Macchiato |
-| --- | --- |
-| ![Showcase in the Catppuccin Mocha flavor](docs/assets/showcase-mocha.jpg) | ![Showcase in the Catppuccin Macchiato flavor](docs/assets/showcase-macchiato.jpg) |
+### Mocha
 
-| Frappé | Latte |
-| --- | --- |
-| ![Showcase in the Catppuccin Frappé flavor](docs/assets/showcase-frappe.jpg) | ![Showcase in the Catppuccin Latte flavor](docs/assets/showcase-latte.jpg) |
+![Showcase in the Catppuccin Mocha flavor](docs/assets/showcase-mocha.jpg)
+
+### Macchiato
+
+![Showcase in the Catppuccin Macchiato flavor](docs/assets/showcase-macchiato.jpg)
+
+### Frappé
+
+![Showcase in the Catppuccin Frappé flavor](docs/assets/showcase-frappe.jpg)
+
+### Latte
+
+![Showcase in the Catppuccin Latte flavor](docs/assets/showcase-latte.jpg)
 
 ## What you get
 
