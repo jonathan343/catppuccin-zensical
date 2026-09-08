@@ -1,0 +1,5 @@
+{
+  "type": "bugfix",
+  "category": "packaging",
+  "description": "Fix README showcase images and the license link on PyPI by using absolute URLs. ([#30](https://github.com/jonathan343/catppuccin-zensical/pull/30))"
+}
