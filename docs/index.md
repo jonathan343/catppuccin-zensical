@@ -11,7 +11,7 @@ icon: lucide/palette
 
 A soothing pastel theme for [Zensical] documentation sites, built on the
 [Catppuccin] palette. It registers an installable `catppuccin` theme that
-extends Zensical's Material-compatible default, adding all four official
+extends Zensical's default theme, adding all four official
 flavors.
 
   [Zensical]: https://zensical.org/

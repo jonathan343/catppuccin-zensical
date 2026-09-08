@@ -1,3 +1,4 @@
+# Zensical 0.0.37 uses this name for its built-in theme.
 extends: material
 
 palette:

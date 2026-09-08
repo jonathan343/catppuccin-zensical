@@ -4,7 +4,7 @@ icon: lucide/wand-sparkles
 
 # Customization
 
-Beyond picking a flavor, the theme inherits Zensical and Material's full
+Beyond picking a flavor, the theme inherits Zensical's full
 customization surface. The options below are the ones most users want to
 reach for first.
 
@@ -53,14 +53,6 @@ that links to the live documentation. To opt out:
 ```toml title="zensical.toml"
 [project.extra.catppuccin]
 signature = false
-```
-
-Or in MkDocs:
-
-```yaml title="mkdocs.yml"
-extra:
-  catppuccin:
-    signature: false
 ```
 
 !!! quote "Why we ship it on by default"

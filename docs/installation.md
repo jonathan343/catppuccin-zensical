@@ -72,5 +72,5 @@ zensical build --clean
 ```
 
 If the build succeeds and the rendered site uses Catppuccin colors, you're
-all set. If you see Material's default purple instead, double-check that
+all set. If you see Zensical's default colors instead, double-check that
 `name = "catppuccin"` is set under `[project.theme]` in `zensical.toml`.

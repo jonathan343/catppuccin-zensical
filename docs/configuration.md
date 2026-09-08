@@ -46,7 +46,7 @@ accent = "custom"
 !!! note "About `primary` and `accent`"
 
     Setting these to `"custom"` tells the theme to use the colors defined
-    by the Catppuccin scheme rather than Material's named colors. Omit
+    by the Catppuccin scheme rather than Zensical's named colors. Omit
     these only if you're intentionally mixing palettes.
 
 ## Light + dark with a toggle
@@ -103,27 +103,4 @@ primary = "custom"
 accent = "custom"
 toggle.icon = "lucide/sun"
 toggle.name = "Switch to Mocha"
-```
-
-## MkDocs equivalent
-
-If you're using MkDocs rather than Zensical, the same options apply under
-`theme:` in `mkdocs.yml`:
-
-```yaml title="mkdocs.yml"
-theme:
-  name: catppuccin
-  palette:
-    - scheme: catppuccin-latte
-      primary: custom
-      accent: custom
-      toggle:
-        icon: lucide/sun
-        name: Switch to dark mode
-    - scheme: catppuccin-mocha
-      primary: custom
-      accent: custom
-      toggle:
-        icon: lucide/moon
-        name: Switch to light mode
 ```

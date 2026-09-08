@@ -1,0 +1,5 @@
+{
+  "type": "breaking",
+  "category": "theme",
+  "description": "Drop MkDocs support and focus exclusively on Zensical. Remove MkDocs configuration examples and footer compatibility logic. The minimum supported Zensical version remains 0.0.37. ([#29](https://github.com/jonathan343/catppuccin-zensical/pull/29))"
+}

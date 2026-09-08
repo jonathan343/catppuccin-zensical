@@ -6,10 +6,10 @@
 [![License](https://img.shields.io/github/license/jonathan343/catppuccin-zensical)](LICENSE)
 
 A [Catppuccin](https://catppuccin.com/) theme extension for
-[Zensical](https://zensical.org/) and MkDocs sites.
+[Zensical](https://zensical.org/) documentation sites.
 
 It registers an installable theme named `catppuccin` that extends Zensical's
-Material-compatible theme with Catppuccin's Latte, Frappé, Macchiato, and Mocha
+default theme with Catppuccin's Latte, Frappé, Macchiato, and Mocha
 palettes.
 
 [Live demo](https://jonathan343.github.io/catppuccin-zensical/) ·
@@ -58,26 +58,20 @@ Then set the theme name in `zensical.toml`:
 name = "catppuccin"
 ```
 
-Or in `mkdocs.yml`:
-
-```yaml
-theme:
-  name: catppuccin
-```
-
 ## Choose a flavor
 
 The default configuration follows the user's system preference with Latte for
 light mode and Mocha for dark mode. To force a specific flavor, set the palette
 scheme:
 
-```yaml
-theme:
-  name: catppuccin
-  palette:
-    scheme: catppuccin-macchiato
-    primary: custom
-    accent: custom
+```toml
+[project.theme]
+name = "catppuccin"
+
+[[project.theme.palette]]
+scheme = "catppuccin-macchiato"
+primary = "custom"
+accent = "custom"
 ```
 
 Available schemes:
@@ -97,14 +91,6 @@ links to the live documentation. To opt out, set:
 ```toml
 [project.extra.catppuccin]
 signature = false
-```
-
-Or in `mkdocs.yml`:
-
-```yaml
-extra:
-  catppuccin:
-    signature: false
 ```
 
 ## Local development
