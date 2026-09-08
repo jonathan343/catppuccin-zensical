@@ -1,5 +1,18 @@
 # Changelog
 
+## v0.3.0
+
+### Breaking Changes
+* Drop MkDocs support and focus exclusively on Zensical. Remove MkDocs configuration examples and footer compatibility logic. The minimum supported Zensical version remains 0.0.37. ([#29](https://github.com/jonathan343/catppuccin-zensical/pull/29))
+
+### Enhancements
+* Add Open Graph and X card metadata with a shared Catppuccin preview image for documentation links. ([#33](https://github.com/jonathan343/catppuccin-zensical/pull/33))
+
+### Bug fixes
+* Fix README showcase images and the license link on PyPI by using absolute URLs. ([#30](https://github.com/jonathan343/catppuccin-zensical/pull/30))
+* Fix the documentation homepage license link and point page source and edit links to the main branch. ([#31](https://github.com/jonathan343/catppuccin-zensical/pull/31))
+* Fix showcase MathJax startup errors and render equations reliably on direct loads and instant navigation. ([#32](https://github.com/jonathan343/catppuccin-zensical/pull/32))
+
 ## v0.2.3
 
 ### Bug fixes
