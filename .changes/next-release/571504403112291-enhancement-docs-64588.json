@@ -1,0 +1,5 @@
+{
+  "type": "enhancement",
+  "category": "docs",
+  "description": "Add Open Graph and X card metadata with a shared Catppuccin preview image for documentation links. ([#33](https://github.com/jonathan343/catppuccin-zensical/pull/33))"
+}
