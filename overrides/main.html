@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  {% set title = config.site_name %}
+  {% if page and page.canonical_url != config.site_url %}
+    {% set page_title = page.meta.title if page.meta and page.meta.title else page.title %}
+    {% set title = page_title | striptags ~ " - " ~ config.site_name %}
+  {% endif %}
+  {% set description = page.meta.description if page and page.meta and page.meta.description else config.site_description %}
+  {% set image = config.site_url ~ "assets/social-preview.png" %}
+  {% set image_alt = "Catppuccin for Zensical with illustrated documentation panels in Mocha, Macchiato, Frappé, and Latte." %}
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ config.site_name | e }}">
+  <meta property="og:title" content="{{ title | e }}">
+  <meta property="og:description" content="{{ description | e }}">
+  <meta property="og:url" content="{{ (page.canonical_url if page and page.canonical_url else config.site_url) | e }}">
+  <meta property="og:image" content="{{ image | e }}">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="640">
+  <meta property="og:image:alt" content="{{ image_alt | e }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ title | e }}">
+  <meta name="twitter:description" content="{{ description | e }}">
+  <meta name="twitter:image" content="{{ image | e }}">
+  <meta name="twitter:image:alt" content="{{ image_alt | e }}">
+{% endblock %}

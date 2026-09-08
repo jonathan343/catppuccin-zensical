@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <title>Catppuccin for Zensical</title>
+  <desc>Four illustrated documentation panels in Mocha, Macchiato, Frappé, and Latte.</desc>
+  <rect width="1280" height="640" fill="#11111b"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+<svg x="64" y="48" width="64" height="64" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="url(#rainbow-cat)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="rainbow-cat" x1="2" x2="22" y1="2" y2="22" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#d20f39" />
+      <stop offset="18%" stop-color="#fe640b" />
+      <stop offset="35%" stop-color="#df8e1d" />
+      <stop offset="52%" stop-color="#40a02b" />
+      <stop offset="68%" stop-color="#179299" />
+      <stop offset="84%" stop-color="#1e66f5" />
+      <stop offset="100%" stop-color="#8839ef" />
+    </linearGradient>
+  </defs>
+  <path d="M12 5c.67 0 1.35.09 2 .26 1.78-2 5.03-2.84 6.42-2.26 1.4.58-.42 7-.42 7 .57 1.07 1 2.24 1 3.44C21 17.9 16.97 21 12 21s-9-3-9-7.56c0-1.25.5-2.4 1-3.44 0 0-1.89-6.42-.5-7s4.72.23 6.5 2.23A9 9 0 0 1 12 5M8 14v.5M16 14v.5" />
+  <path d="M11.25 16.25h1.5L12 17z" />
+</svg>
+
+  <text x="148" y="102" fill="#cdd6f4" font-size="60" font-weight="700" letter-spacing="-2">Catppuccin for Zensical</text>
+  <text x="64" y="166" fill="#bac2de" font-size="27">Four soothing palettes for your documentation.</text>
+
+  <g transform="translate(64 220)">
+    <rect width="276" height="304" rx="18" fill="#1e1e2e" stroke="#313244" stroke-width="2"/>
+    <circle cx="24" cy="30" r="6" fill="#cba6f7"/>
+    <text x="42" y="38" fill="#cdd6f4" font-size="23" font-weight="700">Mocha</text>
+    <path d="M1 60H275" stroke="#313244"/>
+    <path d="M1 61H52V303H18Q1 303 1 286Z" fill="#181825"/>
+    <rect x="13" y="86" width="26" height="6" rx="3" fill="#89b4fa"/>
+    <rect x="13" y="109" width="22" height="5" rx="2.5" fill="#a6adc8" opacity=".5"/>
+    <rect x="13" y="132" width="26" height="5" rx="2.5" fill="#a6adc8" opacity=".5"/>
+    <rect x="13" y="155" width="18" height="5" rx="2.5" fill="#a6adc8" opacity=".5"/>
+    <text x="68" y="100" fill="#cdd6f4" font-size="18" font-weight="700">Getting started</text>
+    <rect x="68" y="118" width="168" height="5" rx="2.5" fill="#a6adc8" opacity=".65"/>
+    <rect x="68" y="130" width="130" height="5" rx="2.5" fill="#a6adc8" opacity=".4"/>
+    <rect x="68" y="157" width="188" height="80" rx="8" fill="#181825"/>
+    <g font-family="Menlo, monospace" font-size="12">
+      <text x="80" y="184" fill="#cba6f7">[project.theme]</text>
+      <text x="80" y="211" fill="#cdd6f4">name = <tspan fill="#a6e3a1">"catppuccin"</tspan></text>
+    </g>
+    <rect x="68" y="254" width="188" height="30" rx="7" fill="#313244"/>
+    <circle cx="83" cy="269" r="4" fill="#a6e3a1"/>
+    <text x="96" y="274" fill="#cdd6f4" font-size="13">Make it yours.</text>
+  </g>
+
+  <g transform="translate(356 220)">
+    <rect width="276" height="304" rx="18" fill="#24273a" stroke="#363a4f" stroke-width="2"/>
+    <circle cx="24" cy="30" r="6" fill="#c6a0f6"/>
+    <text x="42" y="38" fill="#cad3f5" font-size="23" font-weight="700">Macchiato</text>
+    <path d="M1 60H275" stroke="#363a4f"/>
+    <path d="M1 61H52V303H18Q1 303 1 286Z" fill="#1e2030"/>
+    <rect x="13" y="86" width="26" height="6" rx="3" fill="#8aadf4"/>
+    <rect x="13" y="109" width="22" height="5" rx="2.5" fill="#a5adcb" opacity=".5"/>
+    <rect x="13" y="132" width="26" height="5" rx="2.5" fill="#a5adcb" opacity=".5"/>
+    <rect x="13" y="155" width="18" height="5" rx="2.5" fill="#a5adcb" opacity=".5"/>
+    <text x="68" y="100" fill="#cad3f5" font-size="18" font-weight="700">Getting started</text>
+    <rect x="68" y="118" width="168" height="5" rx="2.5" fill="#a5adcb" opacity=".65"/>
+    <rect x="68" y="130" width="130" height="5" rx="2.5" fill="#a5adcb" opacity=".4"/>
+    <rect x="68" y="157" width="188" height="80" rx="8" fill="#1e2030"/>
+    <g font-family="Menlo, monospace" font-size="12">
+      <text x="80" y="184" fill="#c6a0f6">[project.theme]</text>
+      <text x="80" y="211" fill="#cad3f5">name = <tspan fill="#a6da95">"catppuccin"</tspan></text>
+    </g>
+    <rect x="68" y="254" width="188" height="30" rx="7" fill="#363a4f"/>
+    <circle cx="83" cy="269" r="4" fill="#a6da95"/>
+    <text x="96" y="274" fill="#cad3f5" font-size="13">Make it yours.</text>
+  </g>
+
+  <g transform="translate(648 220)">
+    <rect width="276" height="304" rx="18" fill="#303446" stroke="#414559" stroke-width="2"/>
+    <circle cx="24" cy="30" r="6" fill="#ca9ee6"/>
+    <text x="42" y="38" fill="#c6d0f5" font-size="23" font-weight="700">Frappé</text>
+    <path d="M1 60H275" stroke="#414559"/>
+    <path d="M1 61H52V303H18Q1 303 1 286Z" fill="#292c3c"/>
+    <rect x="13" y="86" width="26" height="6" rx="3" fill="#8caaee"/>
+    <rect x="13" y="109" width="22" height="5" rx="2.5" fill="#a5adce" opacity=".5"/>
+    <rect x="13" y="132" width="26" height="5" rx="2.5" fill="#a5adce" opacity=".5"/>
+    <rect x="13" y="155" width="18" height="5" rx="2.5" fill="#a5adce" opacity=".5"/>
+    <text x="68" y="100" fill="#c6d0f5" font-size="18" font-weight="700">Getting started</text>
+    <rect x="68" y="118" width="168" height="5" rx="2.5" fill="#a5adce" opacity=".65"/>
+    <rect x="68" y="130" width="130" height="5" rx="2.5" fill="#a5adce" opacity=".4"/>
+    <rect x="68" y="157" width="188" height="80" rx="8" fill="#292c3c"/>
+    <g font-family="Menlo, monospace" font-size="12">
+      <text x="80" y="184" fill="#ca9ee6">[project.theme]</text>
+      <text x="80" y="211" fill="#c6d0f5">name = <tspan fill="#a6d189">"catppuccin"</tspan></text>
+    </g>
+    <rect x="68" y="254" width="188" height="30" rx="7" fill="#414559"/>
+    <circle cx="83" cy="269" r="4" fill="#a6d189"/>
+    <text x="96" y="274" fill="#c6d0f5" font-size="13">Make it yours.</text>
+  </g>
+
+  <g transform="translate(940 220)">
+    <rect width="276" height="304" rx="18" fill="#eff1f5" stroke="#ccd0da" stroke-width="2"/>
+    <circle cx="24" cy="30" r="6" fill="#8839ef"/>
+    <text x="42" y="38" fill="#4c4f69" font-size="23" font-weight="700">Latte</text>
+    <path d="M1 60H275" stroke="#ccd0da"/>
+    <path d="M1 61H52V303H18Q1 303 1 286Z" fill="#e6e9ef"/>
+    <rect x="13" y="86" width="26" height="6" rx="3" fill="#1e66f5"/>
+    <rect x="13" y="109" width="22" height="5" rx="2.5" fill="#6c6f85" opacity=".5"/>
+    <rect x="13" y="132" width="26" height="5" rx="2.5" fill="#6c6f85" opacity=".5"/>
+    <rect x="13" y="155" width="18" height="5" rx="2.5" fill="#6c6f85" opacity=".5"/>
+    <text x="68" y="100" fill="#4c4f69" font-size="18" font-weight="700">Getting started</text>
+    <rect x="68" y="118" width="168" height="5" rx="2.5" fill="#6c6f85" opacity=".65"/>
+    <rect x="68" y="130" width="130" height="5" rx="2.5" fill="#6c6f85" opacity=".4"/>
+    <rect x="68" y="157" width="188" height="80" rx="8" fill="#e6e9ef"/>
+    <g font-family="Menlo, monospace" font-size="12">
+      <text x="80" y="184" fill="#8839ef">[project.theme]</text>
+      <text x="80" y="211" fill="#4c4f69">name = <tspan fill="#40a02b">"catppuccin"</tspan></text>
+    </g>
+    <rect x="68" y="254" width="188" height="30" rx="7" fill="#ccd0da"/>
+    <circle cx="83" cy="269" r="4" fill="#40a02b"/>
+    <text x="96" y="274" fill="#4c4f69" font-size="13">Make it yours.</text>
+  </g>
+
+  <text x="64" y="589" fill="#a6adc8" font-size="20">Open source · MIT</text>
+  <text x="1216" y="589" text-anchor="end" fill="#a6adc8" font-size="20">github.com/jonathan343/catppuccin-zensical</text>
+  </g>
+</svg>

@@ -2,7 +2,7 @@
 
 # General
 site_name = "Catppuccin for Zensical"
-site_description = "Catppuccin theme extension for Zensical"
+site_description = "A soothing pastel theme for Zensical documentation, with Latte, Frappé, Macchiato, and Mocha palettes."
 site_author = "Jonathan Gaytan"
 site_url = "https://jonathan343.github.io/catppuccin-zensical/"
 
