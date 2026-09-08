@@ -1,0 +1,5 @@
+{
+  "type": "bugfix",
+  "category": "docs",
+  "description": "Fix showcase MathJax startup errors and render equations reliably on direct loads and instant navigation. ([#32](https://github.com/jonathan343/catppuccin-zensical/pull/32))"
+}
