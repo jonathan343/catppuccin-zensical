@@ -11,6 +11,12 @@ repo_name = "jonathan343/catppuccin-zensical"
 repo_url = "https://github.com/jonathan343/catppuccin-zensical"
 edit_uri = "edit/main/docs/"
 
+# Math rendering for the demo, including instant navigation.
+extra_javascript = [
+    "javascripts/mathjax.js",
+    "https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js",
+]
+
 # Navigation
 nav = [
     "index.md",

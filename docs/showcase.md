@@ -162,31 +162,8 @@ $$
 
 !!! warning "MathJax setup"
 
-    MathJax isn't enabled by default — only this page loads it via the
-    inline script below. See the [Zensical math docs] for site-wide
-    configuration.
+    This demo enables MathJax in `zensical.toml` with
+    `docs/javascripts/mathjax.js`. The theme itself doesn't enable it.
+    See the [Zensical math docs] to configure it for your own site.
 
   [Zensical math docs]: https://zensical.org/docs/authoring/math/
-
-<script id="MathJax-script" src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script>
-  window.MathJax = {
-    tex: {
-      inlineMath: [["\\(", "\\)"]],
-      displayMath: [["\\[", "\\]"]],
-      processEscapes: true,
-      processEnvironments: true
-    },
-    options: {
-      ignoreHtmlClass: ".*|",
-      processHtmlClass: "arithmatex"
-    }
-  };
-
-  document$.subscribe(() => {
-    MathJax.startup.output.clearCache()
-    MathJax.typesetClear()
-    MathJax.texReset()
-    MathJax.typesetPromise()
-  })
-</script>
