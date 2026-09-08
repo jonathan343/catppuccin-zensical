@@ -1,5 +1,11 @@
 {% extends "base.html" %}
 
+{% block styles %}
+  {{ super() }}
+  {# Preserve the stylesheet normally added by the theme's main.html. #}
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/catppuccin.css' | url }}">
+{% endblock %}
+
 {% block extrahead %}
   {{ super() }}
   {% set title = config.site_name %}
