@@ -9,6 +9,7 @@ site_url = "https://jonathan343.github.io/catppuccin-zensical/"
 # Repository
 repo_name = "jonathan343/catppuccin-zensical"
 repo_url = "https://github.com/jonathan343/catppuccin-zensical"
+edit_uri = "edit/main/docs/"
 
 # Navigation
 nav = [

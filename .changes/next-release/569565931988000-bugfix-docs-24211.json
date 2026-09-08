@@ -1,0 +1,5 @@
+{
+  "type": "bugfix",
+  "category": "docs",
+  "description": "Fix the documentation homepage license link and point page source and edit links to the main branch. ([#31](https://github.com/jonathan343/catppuccin-zensical/pull/31))"
+}
