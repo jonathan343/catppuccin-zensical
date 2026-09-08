@@ -14,8 +14,6 @@ dependencies = [
 keywords = [
     "catppuccin",
     "documentation",
-    "material-for-mkdocs",
-    "mkdocs",
     "theme",
     "zensical",
 ]
@@ -42,6 +40,7 @@ classifiers = [
 "Documentation" = "https://jonathan343.github.io/catppuccin-zensical/"
 "Issue tracker" = "https://github.com/jonathan343/catppuccin-zensical/issues"
 
+# Zensical uses this entry point group to discover installed themes.
 [project.entry-points."mkdocs.themes"]
 catppuccin = "catppuccin_zensical"
 
